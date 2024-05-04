@@ -13,7 +13,7 @@ Welcome to my GitHub page! I'm passionate about [Your Passion/Field], and I love
 ### 📚 Featured Projects
 Here are some of my noteworthy projects:
 
-1. [Project 1](link_to_project_1): Brief description.
+1. [Project 1](/projects/project1): Brief description.
 2. [Project 2](link_to_project_2): Brief description.
 3. [Project 3](link_to_project_3): Brief description.
 
