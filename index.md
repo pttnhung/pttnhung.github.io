@@ -1,6 +1,6 @@
-# Hey, I'm [Your Name] 👋
+# Hey, I'm Thùy Nhung 👋
 
-![Your Name](link_to_your_profile_picture)
+![Thùy Nhung](https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-1/426601379_959969725460453_6847027854054875154_n.jpg?stp=dst-jpg_p480x480&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=la9erNn4t4wQ7kNvgFj3c2L&_nc_ht=scontent.fdad1-4.fna&oh=00_AfByIEuejH-U57yizwquYvKxiGwivZcpgEg07jXM2CNzfg&oe=663BD232)
 
 Welcome to my GitHub page! I'm passionate about [Your Passion/Field], and I love to [Your Interest/Hobby]. Here's a bit more about me:
 
