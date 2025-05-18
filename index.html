@@ -1,43 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>My Site</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <style>
-    body,
-    h1 {
-      font-family: "Raleway", sans-serif
+  <title>Phan Thi Thuy Nhung</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'cute-pink': '#FF9AAA',
+            'cute-orange': '#FFA07A',
+          }
+        }
+      }
     }
+  </script>
 
-    body,
-    html {
-      height: 100%
-    }
+  <!-- SEO Metadata -->
+  <meta name="title" content="Amirah's Site">
+  <meta name="description" content="Hi, my name is Thuy Nhung. I'm a Web Developer.">
+  <meta name="keywords" content="web, fullstack developer">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="author" content="Phan Thi Thuy Nhung">
 
-    .bgimg {
-      background-image: url('https://images.unsplash.com/photo-1494972308805-463bc619d34e?q=80&w=2673&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-      min-height: 100%;
-      background-position: center;
-      background-size: cover;
-    }
-  </style>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Amirah's Site" />
+  <meta property="og:url" content="/" />
+  <meta property="og:image" content="/banner.avif" />
+
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Amirah's Site">
+  <meta name="twitter:description" content="Hi, my name is Thuy Nhung.">
+  <meta name="twitter:image" content="/banner.avif">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+  <link rel="manifest" href="/public/site.webmanifest">
 </head>
 
-<body>
-  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-    <div class="w3-display-topleft w3-padding-large w3-xlarge">
-      Amirah
+<body class="font-sans antialiased">
+
+  <!-- Banner -->
+  <section class="min-h-screen w-full flex flex-col justify-center items-center bg-[url('https://i.pinimg.com/736x/87/73/97/877397be73e1db0e4311fff4ea871577.jpg')] bg-cover bg-center">
+    <div class="w-full lg:w-[80%] p-12 text-gray-800">
+      <h1 class="text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
+        <span>Hi, my name is <span class="text-cute-pink">Thuy Nhung</span></span>
+        <span class="text-gray-800">I'm the Web Developer.</span>
+      </h1>
+      <a href="#about-me"
+        class="uppercase border-2 border-cute-pink p-3 hover:bg-cute-pink hover:text-white transition-colors cursor-pointer">
+        <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-light focus:outline-none focus:ring focus:ring-pink-300">Know more</span>
+      </a>
     </div>
-    <div class="w3-display-middle">
-      <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-      <p class="w3-large w3-center">10 days left</p>
-      <hr class="w3-border-grey" style="margin:auto;width:40%">
-    </div>    
-  </div>
+  </section>
+  <!-- ./Banner -->
+
+  <!-- About Me -->
+  <section id="about-me"
+    class="bg-gradient-to-r from-cute-pink to-cute-orange min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
+    <div class="w-full lg:w-[60%] mb-5">
+      <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-12">About Me</h2>
+      <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
+        <div class="flex justify-center items-center text-center col-span-1">
+          <img class="object-cover max-w-xs lg:w-auto rounded-full border-4 border-white"
+            src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-1/461058329_1096960151761409_8156927609808850405_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=z1bFipeuiFsQ7kNvwFBsoO1&_nc_oc=AdmN_6hxcC_B1257gRgyY9i3lf5p0Q9zi7esI-Qrq01GEu92ZSmsmt1nfkYaFigwWx374vEaVbxOddFOCRCOj92c&_nc_zt=24&_nc_ht=scontent.fdad3-1.fna&_nc_gid=Yn0S8e_FwEIeMGzTbf7OGw&oh=00_AfJmygHgn9XIqrc0eE9gFKLEa4Ou8B5jfEYveCv7Amf67w&oe=682F4FEC"
+            title="Thuy Nhung avatar" alt="Thuy Nhung avatar" />
+        </div>
+        <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
+          <div class="p-0 text-center lg:p-8 lg:text-start">
+            <p class="pb-3 text-lg font-light mb-5">
+              I love programming, application development, and researching software architecture. My career
+              objective is to become a Senior Software Engineer who masters software architecture, design
+              principles, and modern development technologies.
+            </p>
+            <a href="https://drive.google.com/file/d/1rrqhPdD-moRjUvEqm7f_e6NvI_2hLhV_" target="_blank"
+              class="uppercase border-2 border-white p-3 text-white hover:bg-white hover:text-cute-pink transition-colors cursor-pointer">
+              <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-normal focus:outline-none focus:ring focus:ring-pink-300">View My CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ./About Me -->
+
+  <!-- Contact -->
+  <section id="contact"
+    class="bg-white min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
+    <div class="w-full lg:w-[60%] mb-5">
+      <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold mb-6">Contact</h2>
+      <p class="flex flex-col justify-center items-center pt-5 pb-5 text-center">
+        <span class="text-2xl text-cute-pink mb-3">I LOOK FORWARD TO WORKING WITH YOU</span>
+        <span>I'm so happy that my skills might bring value to you. Let's connect for work.</span>
+      </p>
+    </div>
+    <a href="mailto:nghuuquyen@gmail.com?subject=Hi, Quyen I want to connect with you for work !!!&body=Please describe your work or projects requirements"
+      class="border-2 border-cute-pink pl-8 pr-8 pt-3 pb-3 bg-cute-pink text-white hover:bg-white hover:text-cute-pink transition-colors cursor-pointer">
+      <span class="text-xl uppercase font-light focus:outline-none focus:ring focus:ring-pink-300">Send An Email Now</span>
+    </a>
+  </section>
+  <!-- ./Contact -->
+
+  <!-- Footer -->
+  <footer class="bg-neutral-900 min-h-[300px] pt-12 pb-12 flex flex-row justify-center items-center">
+    <div class="w-[60%] flex flex-col justify-center items-center">
+      <ul class="flex flex-row">
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+          <a href="https://twitter.com/nghuuquyen" target="_blank">
+            <img class="w-10 grayscale hover:grayscale-0 hover:drop-shadow-lg" src="/imgs/twitter.svg" alt="Twitter" />
+          </a>
+        </li>
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+          <a href="https://www.linkedin.com/in/nghuuquyen" target="_blank">
+            <img class="w-10 grayscale hover:grayscale-0 hover:drop-shadow-lg" src="/imgs/linkedin.svg" alt="LinkedIn" />
+          </a>
+        </li>
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+          <a href="https://github.com/nghuuquyen" target="_blank">
+            <img class="w-10 grayscale hover:grayscale-0 hover:drop-shadow-lg" src="/imgs/github.svg" alt="GitHub" />
+          </a>
+        </li>
+      </ul>
+      <hr class="w-1/2 border-gray-500 mt-10" />
+      <p class="text-lg text-gray-500 mt-5">©2025 - Phan Thi Thuy Nhung</p>
+    </div>
+  </footer>
+  <!-- ./Footer -->
+
 </body>
 
 </html>
