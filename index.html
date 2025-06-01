@@ -16,8 +16,8 @@
             'feminine-lavender': '#E6E6FA',
             'feminine-lilac': '#C8A2C8',
             'feminine-mint': '#C5E8C5',
-            'feminine-dark': '#8B4F8B',
-            'feminine-deep': '#9B5B9B',
+            'feminine-dark-pink': '#D81B60',
+            'feminine-deep-rose': '#E91E63',
           },
           fontFamily: {
             'heading': ['Quicksand', 'sans-serif'],
@@ -56,8 +56,6 @@
 <meta name="twitter:title" content="Thuy Nhung's Site">
 <meta name="twitter:description" content="Hi, my name is Thuy Nhung. I'm a Web Developer.">
 <meta name="twitter:image" content="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808-1/461058329_1096960151761409_8156927609808850405_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=z1bFipeuiFsQ7kNvwFBsoO1&_nc_oc=AdmN_6hxcC_B1257gRgyY9i3lf5p0Q9zi7esI-Qrq01GEu92ZSmsmt1nfkYaFigwWx374vEaVbxOddFOCRCOj92c&_nc_zt=24&_nc_ht=scontent.fdad3-1.fna&_nc_gid=Yn0S8e_FwEIeMGzTbf7OGw&oh=00_AfJmygHgn9XIqrc0eE9gFKLEa4Ou8B5jfEYveCv7Amf67w&oe=682F4FEC">
-
-
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
@@ -126,13 +124,13 @@
 
   <!-- Banner -->
   <section class="min-h-screen w-full flex flex-col justify-center items-center floral-bg">
-    <div class="w-full lg:w-4/5 p-12 text-feminine-dark content-layer">
+    <div class="w-full lg:w-4/5 p-12 text-gray-800 content-layer">
       <h1 class="font-heading text-6xl mb-10 grid grid-col-1 lg:gap-5 font-semibold">
         <span>Hi, I'm <span class="text-feminine-lilac font-bold">Thuy Nhung</span></span>
-        <span class="text-feminine-deep font-elegant italic">UI Developer & UI Designer</span>
+        <span class="text-gray-700 font-elegant italic font-bold">UI Developer & UI Designer</span>
       </h1>
       <a href="#about-me"
-        class="gradient-button inline-block px-10 py-3 text-feminine-dark font-normal text-xl hover:text-feminine-dark transition-all duration-300 cursor-pointer focus:outline-none focus:ring focus:ring-pink-300">
+        class="gradient-button inline-block px-10 py-3 text-white font-bold text-xl hover:text-white transition-all duration-300 cursor-pointer focus:outline-none focus:ring focus:ring-pink-300">
         Get to know me
       </a>
     </div>
@@ -141,9 +139,9 @@
 
   <!-- About Me -->
   <section id="about-me"
-    class="bg-gradient-to-r from-feminine-pink to-feminine-lavender min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-feminine-deep relative">
+    class="bg-gradient-to-r from-feminine-pink to-feminine-lavender min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-gray-700 relative">
     <div class="w-full lg:w-3/5 mb-5 content-layer">
-      <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-feminine-dark mb-12">About Me</h2>
+      <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-feminine-lilac mb-12">About Me</h2>
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-12">
         <div class="flex justify-center items-center text-center col-span-1">
           <div class="relative">
@@ -155,11 +153,11 @@
         </div>
         <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
           <div class="p-8 text-center lg:text-start fancy-border bg-white bg-opacity-90">
-            <p class="pb-5 text-lg font-normal mb-5 leading-relaxed text-feminine-deep">
+            <p class="pb-5 text-lg font-semibold mb-5 leading-relaxed text-gray-800">
               I'm a passionate UI Developer and Designer with a keen eye for creating beautiful, intuitive, and user-friendly interfaces. I believe that great design should not only look aesthetically pleasing but also enhance the user experience in meaningful ways. My approach combines technical expertise with creative design thinking to craft interfaces that users love to interact with.
             </p>
             <a href="https://drive.google.com/file/d/1rrqhPdD-moRjUvEqm7f_e6NvI_2hLhV_" target="_blank"
-              class="gradient-button inline-block px-8 py-3 text-feminine-dark font-normal text-lg uppercase transition-all cursor-pointer focus:outline-none focus:ring focus:ring-pink-300">
+              class="gradient-button inline-block px-8 py-3 text-white font-bold text-lg uppercase transition-all cursor-pointer focus:outline-none focus:ring focus:ring-pink-300">
               View My CV
             </a>
           </div>
@@ -170,46 +168,46 @@
   <!-- ./About Me -->
 
   <!-- Portfolio -->
-  <section id="portfolio" class="bg-white min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-feminine-deep">
+  <section id="portfolio" class="bg-white min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-700">
     <div class="w-full lg:w-4/5 mb-10">
       <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-feminine-lilac mb-12">Portfolio</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Project 1 -->
         <div class="fancy-border bg-white p-6 transition-all duration-300 hover:-translate-y-2">
           <div class="h-48 bg-feminine-lavender bg-opacity-20 mb-4 flex items-center justify-center">
-            <span class="text-feminine-lilac font-heading text-xl font-medium">E-commerce UI</span>
+            <span class="text-feminine-lilac font-heading text-xl font-bold">E-commerce UI</span>
           </div>
-          <h3 class="text-xl font-bold mb-2 text-feminine-deep">Fashion Store Design</h3>
-          <p class="text-feminine-deep mb-4">A modern and elegant e-commerce platform designed with a focus on user experience and conversion optimization.</p>
+          <h3 class="text-xl font-bold mb-2 text-gray-800">Fashion Store Design</h3>
+          <p class="text-gray-700 font-semibold mb-4">A modern and elegant e-commerce platform designed with a focus on user experience and conversion optimization.</p>
           <div class="flex justify-between">
-            <span class="text-feminine-dark font-normal">UI Design</span>
-            <span class="text-feminine-dark font-normal">2024</span>
+            <span class="text-feminine-dark-pink font-bold">UI Design</span>
+            <span class="text-feminine-dark-pink font-bold">2024</span>
           </div>
         </div>
         
         <!-- Project 2 -->
         <div class="fancy-border bg-white p-6 transition-all duration-300 hover:-translate-y-2">
           <div class="h-48 bg-feminine-lavender bg-opacity-20 mb-4 flex items-center justify-center">
-            <span class="text-feminine-lilac font-heading text-xl font-medium">Mobile App</span>
+            <span class="text-feminine-lilac font-heading text-xl font-bold">Mobile App</span>
           </div>
-          <h3 class="text-xl font-bold mb-2 text-feminine-deep">Health Tracking App</h3>
-          <p class="text-feminine-deep mb-4">A wellness application with intuitive interface for tracking health metrics, activities, and personal goals.</p>
+          <h3 class="text-xl font-bold mb-2 text-gray-800">Health Tracking App</h3>
+          <p class="text-gray-700 font-semibold mb-4">A wellness application with intuitive interface for tracking health metrics, activities, and personal goals.</p>
           <div class="flex justify-between">
-            <span class="text-feminine-dark font-normal">UI/UX Design</span>
-            <span class="text-feminine-dark font-normal">2023</span>
+            <span class="text-feminine-dark-pink font-bold">UI/UX Design</span>
+            <span class="text-feminine-dark-pink font-bold">2023</span>
           </div>
         </div>
         
         <!-- Project 3 -->
         <div class="fancy-border bg-white p-6 transition-all duration-300 hover:-translate-y-2">
           <div class="h-48 bg-feminine-lavender bg-opacity-20 mb-4 flex items-center justify-center">
-            <span class="text-feminine-lilac font-heading text-xl font-medium">Web Platform</span>
+            <span class="text-feminine-lilac font-heading text-xl font-bold">Web Platform</span>
           </div>
-          <h3 class="text-xl font-bold mb-2 text-feminine-deep">Learning Management System</h3>
-          <p class="text-feminine-deep mb-4">An educational platform with a clean, accessible design focused on enhancing the learning experience.</p>
+          <h3 class="text-xl font-bold mb-2 text-gray-800">Learning Management System</h3>
+          <p class="text-gray-700 font-semibold mb-4">An educational platform with a clean, accessible design focused on enhancing the learning experience.</p>
           <div class="flex justify-between">
-            <span class="text-feminine-dark font-normal">Frontend Development</span>
-            <span class="text-feminine-dark font-normal">2023</span>
+            <span class="text-feminine-dark-pink font-bold">Frontend Development</span>
+            <span class="text-feminine-dark-pink font-bold">2023</span>
           </div>
         </div>
       </div>
@@ -218,31 +216,31 @@
   <!-- ./Portfolio -->
 
   <!-- Skills -->
-<section id="skills" class="bg-gradient-to-r from-feminine-pink to-feminine-lavender min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
+<section id="skills" class="bg-gradient-to-r from-feminine-pink to-feminine-lavender min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-700">
   <div class="w-full lg:w-4/5 mb-10">
-    <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-gray-800 mb-12">Skills</h2>
+    <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-white mb-12">Skills</h2>
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       
       <!-- Design Skills -->
-      <div class="fancy-border bg-white bg-opacity-95 p-8">
-        <h3 class="text-2xl font-elegant text-feminine-lilac mb-6 text-center">Design</h3>
-        <ul class="space-y-4 list-disc list-inside text-base text-gray-800">
-          <li><strong>UI/UX Design:</strong> 3+ years of experience creating user-centered designs for websites and mobile applications. Strong focus on usability, accessibility, and visual aesthetics.</li>
-          <li><strong>Wireframing:</strong> Proficient in planning and structuring layouts using tools like Figma and Balsamiq to communicate ideas effectively with stakeholders and developers.</li>
-          <li><strong>Prototyping:</strong> Skilled in building interactive prototypes to simulate user flows and test usability before development.</li>
-          <li><strong>Figma:</strong> Daily use for collaborative design projects, component libraries, responsive layouts, and design systems.</li>
+      <div class="fancy-border bg-white bg-opacity-90 p-8">
+        <h3 class="text-2xl font-elegant text-feminine-lilac mb-6 text-center font-bold">Design</h3>
+        <ul class="space-y-4 list-disc list-inside text-base">
+          <li><strong class="text-feminine-dark-pink">UI/UX Design:</strong> <span class="font-semibold text-gray-800">3+ years of experience creating user-centered designs for websites and mobile applications. Strong focus on usability, accessibility, and visual aesthetics.</span></li>
+          <li><strong class="text-feminine-dark-pink">Wireframing:</strong> <span class="font-semibold text-gray-800">Proficient in planning and structuring layouts using tools like Figma and Balsamiq to communicate ideas effectively with stakeholders and developers.</span></li>
+          <li><strong class="text-feminine-dark-pink">Prototyping:</strong> <span class="font-semibold text-gray-800">Skilled in building interactive prototypes to simulate user flows and test usability before development.</span></li>
+          <li><strong class="text-feminine-dark-pink">Figma:</strong> <span class="font-semibold text-gray-800">Daily use for collaborative design projects, component libraries, responsive layouts, and design systems.</span></li>
         </ul>
       </div>
       
       <!-- Development Skills -->
-      <div class="fancy-border bg-white bg-opacity-95 p-8">
-        <h3 class="text-2xl font-elegant text-feminine-lilac mb-6 text-center">Development</h3>
-        <ul class="space-y-4 list-disc list-inside text-base text-gray-800">
-          <li><strong>HTML/CSS:</strong> Expert in writing clean, semantic HTML and modular, maintainable CSS. Experienced in accessibility and SEO best practices.</li>
-          <li><strong>JavaScript:</strong> Proficient in modern JavaScript (ES6+), DOM manipulation, event handling, and creating dynamic interfaces.</li>
-          <li><strong>React:</strong> Hands-on experience building SPA using React, including hooks, component state management, and routing.</li>
-          <li><strong>Tailwind CSS:</strong> Efficient in using utility-first classes to rapidly prototype and build scalable UIs with consistency.</li>
+      <div class="fancy-border bg-white bg-opacity-90 p-8">
+        <h3 class="text-2xl font-elegant text-feminine-lilac mb-6 text-center font-bold">Development</h3>
+        <ul class="space-y-4 list-disc list-inside text-base">
+          <li><strong class="text-feminine-dark-pink">HTML/CSS:</strong> <span class="font-semibold text-gray-800">Expert in writing clean, semantic HTML and modular, maintainable CSS. Experienced in accessibility and SEO best practices.</span></li>
+          <li><strong class="text-feminine-dark-pink">JavaScript:</strong> <span class="font-semibold text-gray-800">Proficient in modern JavaScript (ES6+), DOM manipulation, event handling, and creating dynamic interfaces.</span></li>
+          <li><strong class="text-feminine-dark-pink">React:</strong> <span class="font-semibold text-gray-800">Hands-on experience building SPA using React, including hooks, component state management, and routing.</span></li>
+          <li><strong class="text-feminine-dark-pink">Tailwind CSS:</strong> <span class="font-semibold text-gray-800">Efficient in using utility-first classes to rapidly prototype and build scalable UIs with consistency.</span></li>
         </ul>
       </div>
     </div>
@@ -252,7 +250,7 @@
 
 
   <!-- Experience -->
-  <section id="experience" class="bg-white min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
+  <section id="experience" class="bg-white min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-700">
     <div class="w-full lg:w-4/5 mb-10">
       <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-feminine-lilac mb-12">Experience</h2>
       
@@ -263,10 +261,10 @@
           <div class="ml-2">
             <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
               <h3 class="text-xl font-bold text-gray-800">Junior UI Designer</h3>
-              <span class="text-feminine-lilac font-medium">Jan 2023 - Present</span>
+              <span class="text-feminine-dark-pink font-bold">Jan 2023 - Present</span>
             </div>
-            <h4 class="text-lg font-medium mb-3 text-gray-800">Creative Tech Solutions</h4>
-            <ul class="list-disc pl-5 space-y-2 text-gray-700">
+            <h4 class="text-lg font-bold mb-3 text-feminine-deep-rose">Creative Tech Solutions</h4>
+            <ul class="list-disc pl-5 space-y-2 text-gray-800 font-semibold">
               <li>Designed user interfaces for web and mobile applications</li>
               <li>Collaborated with development teams to implement designs</li>
               <li>Conducted user testing and incorporated feedback</li>
@@ -281,10 +279,10 @@
           <div class="ml-2">
             <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
               <h3 class="text-xl font-bold text-gray-800">UI/UX Design Intern</h3>
-              <span class="text-feminine-lilac font-medium">May 2022 - Dec 2022</span>
+              <span class="text-feminine-dark-pink font-bold">May 2022 - Dec 2022</span>
             </div>
-            <h4 class="text-lg font-medium mb-3 text-gray-800">Digital Innovation Studio</h4>
-            <ul class="list-disc pl-5 space-y-2 text-gray-700">
+            <h4 class="text-lg font-bold mb-3 text-feminine-deep-rose">Digital Innovation Studio</h4>
+            <ul class="list-disc pl-5 space-y-2 text-gray-800 font-semibold">
               <li>Assisted senior designers with user interface design projects</li>
               <li>Created UI elements and assets for various applications</li>
               <li>Participated in brainstorming sessions and design reviews</li>
@@ -298,29 +296,29 @@
   <!-- ./Experience -->
 
   <!-- Education -->
-  <section id="education" class="bg-gradient-to-r from-feminine-pink to-feminine-lavender min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
+  <section id="education" class="bg-gradient-to-r from-feminine-pink to-feminine-lavender min-h-screen w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-700">
     <div class="w-full lg:w-4/5 mb-10">
-      <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-gray-800 mb-12">Education</h2>
+      <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-white mb-12">Education</h2>
       
       <div class="space-y-10">
         <!-- Education Item 1 -->
-        <div class="fancy-border bg-white bg-opacity-95 p-8">
+        <div class="fancy-border bg-white bg-opacity-90 p-8">
           <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
             <h3 class="text-xl font-bold text-gray-800">Bachelor of Science in Information Technology</h3>
-            <span class="text-feminine-lilac font-medium">2021 - 2025</span>
+            <span class="text-feminine-dark-pink font-bold">2021 - 2025</span>
           </div>
-          <h4 class="text-lg font-medium mb-3 text-gray-800">VNUK Institute for Research and Executive Education</h4>
-          <p class="text-gray-700">Specialization in UI/UX Design and Web Development. Relevant coursework included Human-Computer Interaction, Web Design Principles, and Advanced UI Development.</p>
+          <h4 class="text-lg font-bold mb-3 text-feminine-deep-rose">VNUK Institute for Research and Executive Education</h4>
+          <p class="text-gray-800 font-semibold">Specialization in UI/UX Design and Web Development. Relevant coursework included Human-Computer Interaction, Web Design Principles, and Advanced UI Development.</p>
         </div>
         
         <!-- Education Item 2 -->
-        <div class="fancy-border bg-white bg-opacity-95 p-8">
+        <div class="fancy-border bg-white bg-opacity-90 p-8">
           <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
             <h3 class="text-xl font-bold text-gray-800">UI/UX Design Certification</h3>
-            <span class="text-feminine-lilac font-medium">2022</span>
+            <span class="text-feminine-dark-pink font-bold">2022</span>
           </div>
-          <h4 class="text-lg font-medium mb-3 text-gray-800">Design Academy Online</h4>
-          <p class="text-gray-700">Comprehensive program covering the principles of user interface design, user experience, wireframing, prototyping, and modern design tools.</p>
+          <h4 class="text-lg font-bold mb-3 text-feminine-deep-rose">Design Academy Online</h4>
+          <p class="text-gray-800 font-semibold">Comprehensive program covering the principles of user interface design, user experience, wireframing, prototyping, and modern design tools.</p>
         </div>
       </div>
     </div>
@@ -329,18 +327,18 @@
 
   <!-- Contact -->
   <section id="contact"
-    class="bg-white min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800 relative">
+    class="bg-white min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-700 relative">
     <div class="w-full lg:w-3/5 mb-5 content-layer">
       <h2 class="font-heading text-3xl lg:text-5xl text-center font-bold text-feminine-lilac mb-6">Let's Connect</h2>
       <div class="fancy-border bg-white p-8 text-center mb-8">
         <p class="flex flex-col justify-center items-center pt-5 pb-5">
-          <span class="text-2xl font-heading text-feminine-lilac mb-3 font-medium">I'd Love to Work With You</span>
-          <span class="text-gray-700">I'm excited that my skills might bring value to your projects. Let's connect for work opportunities!</span>
+          <span class="text-2xl font-heading text-feminine-lilac mb-3 font-bold">I'd Love to Work With You</span>
+          <span class="text-gray-800 font-semibold">I'm excited that my skills might bring value to your projects. Let's connect for work opportunities!</span>
         </p>
       </div>
     </div>
     <a href="mailto:nhung.phan230206@vnuk.edu.vn?subject=Hi, I'd like to connect with you for work!&body=Please describe your work or projects requirements"
-      class="gradient-button inline-block px-10 py-4 text-gray-800 text-lg uppercase font-medium transition-all cursor-pointer focus:outline-none focus:ring focus:ring-pink-300">
+      class="gradient-button inline-block px-10 py-4 text-white text-lg uppercase font-bold transition-all cursor-pointer focus:outline-none focus:ring focus:ring-pink-300">
       Send Me an Email
     </a>
   </section>
@@ -356,8 +354,8 @@
           </a>
         </li>
       </ul>
-      <div class="w-32 h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent my-10"></div>
-      <p class="text-lg text-gray-800 font-medium">©2025 - Phan Thi Thuy Nhung</p>
+      <div class="w-32 h-px bg-gradient-to-r from-transparent via-feminine-lilac to-transparent my-10"></div>
+      <p class="text-lg text-feminine-lilac font-bold">©2025 - Phan Thi Thuy Nhung</p>
     </div>
   </footer>
   <!-- ./Footer -->
